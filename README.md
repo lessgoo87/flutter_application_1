@@ -1,10 +1,10 @@
 # flutter_application_1
 
-# [Project Name] 🎯
+# [bio writer] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [bit by bit]
 
 
 ### Team Members
@@ -33,41 +33,127 @@ Say goodbye to boring bios and hello to a unique, engaging online presence! 🎉
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [ Dart  
+- Python  ]
+- [Flutter  
+- Flask ]
+- [HTTP (Flutter)  
+- Flask-CORS ]
+- [VS Code / Android Studio  
+- Postman (for API testing)  
+- GitHub  ]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- [Laptop]
+- [Minimum 4GB RAM (8GB recommended)  
+- Internet connection for API calls  
+- Python 3.x installed  ]
+- [Android Emulator or Physical Android Device (for Flutter testing)  
+- Postman (for API testing)]
 
 ### Implementation
-For Software:
+For Software:**Languages Used:** Dart, Python  
+- **Frameworks Used:** Flutter, Flask  
+- **Libraries Used:** http (Flutter), Flask-CORS  
+- **Tools Used:** VS Code, Android Studio, Postman 
 # Installation
-[commands]
+[pip install flask flask-cors requests
+]
 
 # Run
-[commands]
+[ 
+```sh
+pip install flask flask-cors
+python app.py]
 
 ### Project Documentation
-For Software:
+For Software:Project Documentation
+1. Overview
+The Bio Generator is a simple web application that generates creative bios based on user inputs.
+
+2. Features
+User inputs details like name, mood, profession, and platform.
+Generates a personalized bio based on the input.
+Simple UI with a button to fetch a new bio.
+Implementation
+1. Languages Used
+Python (for the backend)
+Dart (for the frontend)
+2. Frameworks Used
+Flask (for API development)
+Flutter (for UI development)
+3. Libraries Used
+Flask-CORS (for handling cross-origin requests)
+HTTP (Flutter package for API requests)
+4. Tools Used
+Postman (for API testing)
+VS Code / PyCharm (for development)
+Android Studio (for Flutter development)
+Installation
+Backend (Flask) Setup
+Clone the repository:
+sh
+Copy
+Edit
+git clone <repo-url>
+cd bio-generator
+Create a virtual environment (optional but recommended):
+sh
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install dependencies:
+sh
+Copy
+Edit
+pip install -r requirements.txt
+Run the Flask server:
+sh
+Copy
+Edit
+python app.py
+Frontend (Flutter) Setup
+Navigate to the Flutter project folder:
+sh
+Copy
+Edit
+cd my_bio_generator
+Install dependencies:
+sh
+Copy
+Edit
+flutter pub get
+Run the Flutter app:
+sh
+Copy
+Edit
+flutter run
+How It Works
+User enters details in the Flutter app.
+The app sends a request to the Flask API.
+The API processes the request and returns a generated bio.
+The app displays the bio in the UI.
+
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](https://drive.google.com/file/d/1HFGHHAWnwkhIUfHg3GBZEhCxwtdPsGas/view?usp=drivesdk)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](https://drive.google.com/file/d/1AkPAENC3HVavW4bMRs2K8OLFa6SK2EEn/view?usp=drivesdk)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](https://drive.google.com/file/d/1m30W7UMDGYOzSSk49_SH5Hqb1Ei_p3xz/view?usp=drivesdk)
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+![Workflow](https://drive.google.com/file/d/1AkPAENC3HVavW4bMRs2K8OLFa6SK2EEn/view?usp=drivesdk)
+*Our Bio Generator follows a simple and structured workflow:
 
+User Input: The user enters their name, mood, profession, and platform in the Flutter app.
+API Request: The Flutter frontend sends a request to the Flask backend.
+Bio Generation: The backend processes the request and returns a dynamically generated bio.
+Display Output: The generated bio is displayed on the Flutter app interface.
 For Hardware:
 
 # Schematic & Circuit
@@ -78,17 +164,37 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Team](Add photo of your team here)
+![bit by bit](https://drive.google.com/file/d/12ZKkCp0ufQ2iL_R7v_oZLk1mGoJB0kvP/view?usp=drivesdk)
 
 
 ![Components](Add photo of your components here)
 *List out all components shown*
 
 ![Build](Add photos of build process here)
-*Explain the build steps*
+*1. Set Up the Flutter Environment
+Ensure that you have Flutter installed on your system. If not, follow the Flutter Installation Guide.
 
-![Final](Add photo of final product here)
-*Explain the final build*
+2. Organize Assets
+Add images inside the assets/ folder.
+Declare them in pubspec.yaml:
+yaml
+Copy
+Edit
+flutter:
+  assets:
+    - assets/background.jpg
+3. Debugging & Running the App
+If any issues arise, run:
+sh
+Copy
+Edit
+flutter pub get
+flutter clean
+flutter runsss
+
+![Final]https://drive.google.com/file/d/1AkPAENC3HVavW4bMRs2K8OLFa6SK2EEn/view?usp=drivesdk
+a social medi bio writer
+
 
 ### Project Demo
 # Video
@@ -99,9 +205,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Ananya Anil]: [Developed the Flutter frontend, API integration, and UI design.]
+- [Ajana Biju]: [Built the Flask backend, handled API routes, and managed request processing.]
+- [Devika A S]: [Worked on debugging, documentation, and project deployment.]
 
 ---
 Made with ❤️ at TinkerHub
